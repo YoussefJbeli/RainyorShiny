@@ -69,7 +69,6 @@
   color: azure;
 }
 .home{
-  width: 100%;
   min-height: 100vh;
   background-color: azure;
   display: flex;
