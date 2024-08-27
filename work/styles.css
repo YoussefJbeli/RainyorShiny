@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+a{ text-decoration: none !important
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+.header{
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 35px 9%;
+    width: 100%;
+    background-color: #0D7C66;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+  }
+.logo{
+    font-size: 25px;
+    color:azure;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+.logo:hover{
+    color: #D7C3F1;
+    text-shadow: 0 0 25px #D7C3F1,
+                 0 0 50px #D7C3F1;
+    transform: scale(1.1);
+  }
+.navbar a{
+    font-size: 20px;
+    color:azure;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+  }
+.navbar a:hover, .navbar a:active{
+    color: azure;
+    border-bottom: 3px solid #D7C3F1;
+  }
+.contact{
+    padding: 10px 20px;
+    background-color: azure;
+    color: #0D7C66;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    border-right-width: 2px;
+    padding-right: 20px;
+  }
+.contact:hover{
+    background-color: #D7C3F1;
+    box-shadow:  0 0 25px #D7C3F1;
+    color: azure;
+  }
+.work{
+    min-height: 100vh;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+  }
+.card-body a {
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #fff;
+    background: #41B3A2;
+    transition: 0.2s ease;
+}
+.card-body a:hover{
+    background: #BDE8CA;
+}
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #0D7C66;
+}
+.footer ul{
+  margin-top: 0;
+  padding: 0;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul li a{
+  color: azure;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+.footer ul li a:hover{
+  border-bottom: 3px solid #D7C3F1;
+}
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+span{
+  color: #D7C3F1;
+}
