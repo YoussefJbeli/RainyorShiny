@@ -192,3 +192,30 @@ h1{
     font-size: 1.35rem;
   }
 }
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #0D7C66;
+}
+.footer ul{
+  margin-top: 0;
+  padding: 0;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul li a{
+  color: azure;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+.footer ul li a:hover{
+  border-bottom: 3px solid #D7C3F1;
+}
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
